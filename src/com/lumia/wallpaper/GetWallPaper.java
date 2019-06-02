@@ -32,8 +32,8 @@ public class GetWallPaper {
         int year = calendar.get(Calendar.YEAR);
         int month = calendar.get(Calendar.MONTH);
         int day = calendar.get(Calendar.DAY_OF_MONTH);
-        //每天上午九点开启定时任务
-        calendar.set(year, month, day, 0, 0, 0);
+        //每天上午六点开启定时任务
+        calendar.set(year, month, day, 6, 0, 0);
         Date date = calendar.getTime();
         Timer timer = new Timer();
         //每天0时刻开始执行  每隔30分钟重复执行一次
