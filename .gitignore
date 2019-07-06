@@ -1,11 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea/artifacts/
-.idea/compiler.xml
-.idea/dictionaries/
-.idea/encodings.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml
+.idea
 bingwallpaper.iml
 out/
 src/META-INF/
